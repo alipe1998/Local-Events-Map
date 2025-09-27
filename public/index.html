@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Local Events Map</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-oZ64z/er2BwXf6PazTA/gkGEXLMaLLh5EHC5vYJmX0k="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <header>
+        <h1>Local Events Map</h1>
+        <p>
+          Discover what&apos;s happening around town. Events load automatically from
+          our GeoJSON feed.
+        </p>
+      </header>
+      <section id="map" role="region" aria-label="Local events map"></section>
+      <footer>
+        <p>
+          Data is served by an Express API at <code>/api/events</code> and
+          rendered with <a href="https://leafletjs.com/">Leaflet</a>.
+        </p>
+      </footer>
+    </main>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-o9N1j7kP6H6kKs5xN9mT+Qh3szrFDtvw8Hf+DfP3oho="
+      crossorigin=""
+    ></script>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
