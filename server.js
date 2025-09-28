@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const dbPath = path.join(__dirname, 'data', 'events.duckdb');
-const db = new duckdb.Database(dbPath, { readonly: true });
+const db = new duckdb.Database(dbPath);
 const connection = db.connect();
 
 app.use(cors());
