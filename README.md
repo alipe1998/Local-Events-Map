@@ -56,7 +56,7 @@ This mini-project now stores its event feed in a **DuckDB** database. A Python s
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
-   pip install duckdb
+   pip install -r requirements.txt
    ```
 4. **Seed DuckDB with sample data**:
    ```bash
