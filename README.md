@@ -1,6 +1,6 @@
 # Local Events Map API — DuckDB Edition
 
-This mini-project now stores its event feed in a **DuckDB** database. A Python seeding script generates realistic sample events, and an **Express** API exposes them as GeoJSON to a **Leaflet** front-end. Everything still runs entirely inside **GitHub Codespaces**—no external services required.
+This mini-project now stores its event feed in a **DuckDB** database. A Python seeding script generates realistic sample events, and an **Express** API exposes them as GeoJSON to a **Leaflet** front-end. Everything still runs entirely inside **GitHub Codespaces**—no external services required. Public url to website can be found here: https://vigilant-computing-machine-rwjjw679wjr35qjx-3000.app.github.dev/
 
 ---
 
